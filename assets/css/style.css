@@ -1,15 +1,14 @@
-  
 h1,
 h2,
-h3{
-    color: black;
+h3 {
+  color: black;
 }
 
 .card-container {
   background-color: #070f3d;
   border-radius: 7px;
-  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-  color: #B3B8CD;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
   padding-top: 30px;
   position: relative;
   width: 100%;
@@ -17,8 +16,7 @@ h3{
   text-align: center;
   margin: 40px 0;
   padding-bottom: 30px;
-border-width:inherit;
- 
+  border-width: inherit;
 }
 
 .card-container .round {
@@ -33,13 +31,42 @@ border-width:inherit;
   margin: 0 0 20px 0;
   text-transform: none;
   color: #f0f1f3;
-  
+
   font-weight: 500;
   letter-spacing: 1px;
-  
 }
 
+.card-container1 {
+  background-color: #2d0339;
+  border-radius: 7px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: 40px 0;
+  padding-bottom: 30px;
+  border-width: inherit;
+}
 
+.card-container1 .round {
+  border: 1px solid #d9d2e9;
+  border-radius: 50%;
+  padding: 7px;
+  width: 150px;
+}
+
+.card-container1 h3 {
+  margin: 20px 0;
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: #f0f1f3;
+
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 
 body {
   background: #fff;
@@ -52,7 +79,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #0a98c0;
   outline: none;
   text-decoration: none;
@@ -63,14 +92,14 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
 }
-
-
-
-
-  
